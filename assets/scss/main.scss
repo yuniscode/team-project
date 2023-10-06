@@ -1,5 +1,11 @@
-body {
-    background-color: red;
-    font-size: 33px;
-    width: 100%;
-}
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./utils/variables";
+@import "./layout/grid";
+
+
+@import "./components/button";
+
+
+@import "./components/hero.scss";

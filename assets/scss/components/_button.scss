@@ -1,0 +1,24 @@
+.btn {
+  border: none;
+  color: #fff;
+  padding: 8px 24px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn.btn-primary {
+  background-color: $btn-primary;
+}
+
+.btn.btn-outline {
+  border: 1px solid #fafafa;
+  background-color: transparent;
+
+  &:hover {
+    background-color: #fff;
+    color: $primary-color;
+  }
+}
