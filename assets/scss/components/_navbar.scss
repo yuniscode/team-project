@@ -1,0 +1,57 @@
+nav {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  background-color: #212529;
+
+  .left {
+    h1 {
+      a {
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .right {
+    ul {
+      display: flex;
+      li {
+        padding: 8px;
+
+        a {
+          color: #ffffff8c;
+        }
+
+        &:first-child a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .nav-btn {
+    background-color: transparent;
+    border: 1px solid gray;
+    display: none;
+
+    i {
+      padding: 4px 12px;
+      color: gray;
+      font-size: 30;
+    }
+  }
+}
+
+// responsive for navbar
+
+@media only screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+
+  .nav-btn {
+    display: inline-block !important;
+  }
+}

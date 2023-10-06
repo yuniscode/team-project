@@ -368,4 +368,47 @@ button {
   font-weight: 300;
   margin-bottom: 1.5rem;
   font-size: 20px;
+}
+
+nav {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  background-color: #212529;
+}
+nav .left h1 a {
+  color: white;
+  font-size: 20px;
+}
+nav .right ul {
+  display: flex;
+}
+nav .right ul li {
+  padding: 8px;
+}
+nav .right ul li a {
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+nav .right ul li:first-child a {
+  color: #fff;
+}
+nav .nav-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  display: none;
+}
+nav .nav-btn i {
+  padding: 4px 12px;
+  color: gray;
+  font-size: 30;
+}
+
+@media only screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+  .nav-btn {
+    display: inline-block !important;
+  }
 }/*# sourceMappingURL=main.css.map */
